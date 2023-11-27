@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ejercicio 6 de la TA33">
+    <meta author="David Maza" content="BootCamp T-Systems">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script async src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>TA33 | Ejercicio 6</title>
+</head>
+<body>
+    <main class="container mt-4">
+        <h1 class="text-primary">Exercise 6</h1>
+        <p>
+            En primer lugar crearemos mediante el código HTML y CSS un recuadro en el
+            que quepan dos cifras para las horas, otras dos para los minutos y otras
+            dos para los segundos; cada grupo de dos cifras van separadas: aquí
+            pondremos el signo de dos puntos y unos espacios para separarlos.
+          </p>
+          <p>
+            Después mediante javascript buscamos la hora en el reloj interno del
+            ordenador, para ello javascript posee el objeto Date (), mediante el cual
+            podemos saber la hora actual del ordenador. Mediante los diferentes
+            métodos de este objeto extraemos la hora, los minutos y los segundos.
+          </p>
+          <p>
+            El objeto Date() nos dará la hora del momento en el que éste es llamado,
+            normalmente al cargarse la página o realizar un evento. Sin embargo
+            queremos que éste se actualice a cada segundo para poder tener un reloj en
+            marcha. Para ello debemos utilizar un temporizador que a cada segundo
+            busque de nuevo este objeto y lo devuelva a la página.
+          </p>
+        <div id="clock" class="mx-auto col-4"> 
+          <span id="hours">00</span> : <span id="minutes">00</span> :
+          <span id="seconds">00</span>
+        </div>
+    </main>    
+</body>
+</html>
