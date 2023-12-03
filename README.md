@@ -17,3 +17,5 @@ This repository contains the Bootcamp tasks 👨‍💻
 [Click here to see exercise 4](https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-JS-2611-ta33/Ejercicio_4/index.html) 
 
 [Click here to see exercise 5](https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-JS-2611-ta33/Ejercicio_5/index.html) 
+
+[Click here to see exercise 6](https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-JS-2611-ta33/Ejercicio_6/index.html) 
